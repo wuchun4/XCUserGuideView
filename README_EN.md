@@ -5,22 +5,18 @@
 ![Platform](http://img.shields.io/cocoapods/p/XCUserGuideView.svg)
 
 
-
-#### [English](https://github.com/wuchun4/XCUserGuideView/blob/master/README_EN.md)
-
-
-swift 快速实现针对界面控件具体位置的用户引导
+Rapid implementation in the light of the concrete position of the user interface controls
 
 ![image](https://github.com/wuchun4/XCUserGuideView/blob/master/2017-03-22%2016.49.36.gif)
 
-## 安装
-通过 [CocoaPods](http://cocoapods.org)
+## Install
+[CocoaPods](http://cocoapods.org)
 
 ```ruby
 pod 'XCUserGuideView'
 ```
 
-##使用方法
+##Here's an example:
 ```swift
 		let tempguide:XCUserGuideView = XCUserGuideView(frame: self.view.bounds)
         let item1:XCUserGuideSharpItem = XCUserGuideSharpItem()
@@ -32,6 +28,6 @@ pod 'XCUserGuideView'
         tempguide.show(rootView: self.view, item: item1, completion: nil)
 ```
 
-## 代码许可
+## License
 
-The MIT License (MIT). 详情见 [License 文件](https://github.com/wuchun4/XCUserGuideView/blob/master/LICENSE).
+The MIT License (MIT). See [License 文件](https://github.com/wuchun4/XCUserGuideView/blob/master/LICENSE).
