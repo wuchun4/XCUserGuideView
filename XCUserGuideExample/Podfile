@@ -5,7 +5,7 @@ source 'http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecsMirror.git'
 target 'XCUserGuideExample’ do
     platform :ios, '8.0'
     use_frameworks!
-    pod 'AMPopTip'
+    pod 'AMPopTip' , '~> 1.4.2'
 end
 
 
