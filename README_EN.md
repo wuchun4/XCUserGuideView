@@ -16,7 +16,7 @@ Rapid implementation in the light of the concrete position of the user interface
 pod 'XCUserGuideView'
 ```
 
-##Here's an example:
+## Here's an example:
 ```swift
 		let tempguide:XCUserGuideView = XCUserGuideView(frame: self.view.bounds)
         let item1:XCUserGuideSharpItem = XCUserGuideSharpItem()
