@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/wuchun4/XCUserGuideView"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://github.com/wuchun4/XCUserGuideView/blob/master/2017-03-22%2016.49.36.gif"
   s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Simon" => "870396896@qq.com" }
